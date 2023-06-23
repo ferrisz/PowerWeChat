@@ -12,8 +12,8 @@ type JoinWay struct {
 	RoomBaseName   string   `json:"room_base_name"`
 	RoomBaseID     int      `json:"room_base_id"`
 	ChatIDList     []string `json:"chat_id_list"`
-	QrCode         int      `json:"qr_code"`
-	State          int      `json:"state"`
+	QrCode         string   `json:"qr_code"`
+	State          string   `json:"state"`
 }
 
 type ResponseGroupChatGetJoinWay struct {
